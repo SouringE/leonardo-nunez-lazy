@@ -1,0 +1,13 @@
+The article is facinating in the sense that the author really pushes
+for this hacking is painting metaphor. Being an opinion statement, the article lacks
+evidence for most fo these opinions (see their claim that computer science is a poor description). His claim, is 
+in a "real" science, you aren't supposed to be the one creating the thing you study. 
+Hackers, however, build the objects of their study.
+
+Furthermore, he claims He asserts that computer scientists suffer from "math envy," 
+over-complicating papers with formulas just to look like "real" scientists, which he 
+views as a waste of a hacker’s time.
+
+However, one point I really value is the emphasis on "empathy". I agree that seeing the product
+throguh the users eyes (whether is front-end or back-end programming) is a critical advantage
+that also conveniently makes programming on a project easier to return to.

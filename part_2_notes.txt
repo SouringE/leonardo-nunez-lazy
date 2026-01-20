@@ -1,0 +1,36 @@
+The Problem with "Big" Software
+Large teams/projects usually = poor results, high costs, and slow timelines
+1. Software must be "change tolerant" cause users want new features 
+2. The fix? Write small modules that's easy to read so you can swap pieces instead of rewriting thousands of lines
+
+Unix Core Philosophy
+1. Focused on simplicity: uses a few "primitives" to do complex tasks
+2. 3 Layers:
+   Kernel: Controls hardware
+   Shell: The interface. interprets user commands
+   Programs: Tools like compilers and editors
+
+The "Pipeline" 
+Connects 2 or mote programs end-to-end
+1. Data flows from left to right. The system handles synchronization
+2. Programs don't even know they are connected, they just "talk"
+3. Example (Spell Checker): make words → lowercase → sort → unique → mismatch
+4. The result?: A complex task done without writing a single new line of code
+
+Files & Directories
+Files- A sequence of bytes
+1. No complex attributes (size, record type) needed to create one
+2. Hierarchy: Recursive directory structure
+3. Navigation: Use pwd or ls to move around
+4. Universal: Peripheral devices (printers, tapes, phones) are treated as files
+
+The Shell & Redirection
+Shell Scripts: You can save a long string of commands in a file and run it by name to automate repetitive work
+19. I/O Redirection: > sends output to a file/device instead of the screen
+20. Input can be pulled from a file instead of the keyboard
+21. Handled by the Shell, not the individual program
+
+Programming Environment
+C Language: High-level but allows low-level machine control when needed; makes Unix portable
+23. Tool-Building: Unix users build small tools to help make other tools (e.g., Yak for parsers)
+24. VLSIs: Modern chip design uses small packages glued together via shell procedures rather than one "humongous" program
