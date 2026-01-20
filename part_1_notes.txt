@@ -1,0 +1,3 @@
+The only notable difference between my setup and clear is the terminal style/command line prefix. 
+My terminal shows the full datapath (pwd) of the current working directory while the clear system seems to be obfuscating
+some of the intermediate directories between root and my "home" (my rice id).
